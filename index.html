@@ -42,7 +42,8 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Surya Teja</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="mailto:tejathadikonda@gmail.com" class="hire-btn">Hire Me</a>
+
             </div>
         </div>
     </section>
@@ -58,7 +59,8 @@
                 <div class="column right">
                     <div class="text">I'm Teja and I'm a <span class="typing-2"></span></div>
                     <p>As a passionate Machine Learning Engineer, I leverage my skills in AI, system design, and backend development to drive innovation and productivity. With a solid academic background and hands-on project experience, I thrive on solving complex problems and continuously expanding my knowledge..</p>
-                    <a href="#">Download CV</a>
+                    <a href="C:\Users\91709\Downloads\portfolio-main\portfolio-main\teja_resume.pdf" download>Download CV</a>
+
                 </div>
             </div>
         </div>
@@ -210,7 +212,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address</div>
-                                <div class="sub-title">Guntur, AP</div>
+                                <div class="sub-title">Hyderabad, TS</div>
                             </div>
                         </div>
                         <div class="row">
@@ -224,25 +226,27 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button type="submit">Send message</button>
-                        </div>
-                    </form>
+                     <form id="contactForm" action="https://formspree.io/f/mblyglew" method="POST">
+    <div class="fields">
+        <div class="field name">
+            <input type="text" name="name" placeholder="Name" required>
+        </div>
+        <div class="field email">
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+    </div>
+    <div class="field">
+        <input type="text" name="subject" placeholder="Subject" required>
+    </div>
+    <div class="field textarea">
+        <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+    </div>
+    <div class="button-area">
+        <button type="submit">Send message</button>
+    </div>
+    <p id="statusMessage" style="display:none; color: green; margin-top: 10px;">✅ Thank you! Your message has been sent.</p>
+</form>
+
                 </div>
             </div>
         </div>
@@ -250,7 +254,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="https://github.com/tejathadikonda">Teja_thadikonda</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+        <span>Created By <a href="https://github.com/tejathadikonda">Teja_thadikonda</a> | <span class="far fa-copyright"></span> 2025 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
